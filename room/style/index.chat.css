@@ -1,0 +1,190 @@
+/* edited from here */
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.644)),url('./../../src/background/wall.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.block{
+    border: 1px solid white;
+    opacity: 0.8;
+    /* position: relative; */
+    width: 32%;
+    margin-top: 10px;
+    background: #000;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+    /* top:50px; */
+}
+
+#top-left {
+    width: 32%;
+    left: 1%;
+    min-height: 391px;
+    display: inline-block;
+}
+
+#top-right {
+    right: -1%;
+    min-height: 391px;
+
+}
+
+#bottom-left {
+    /* left: 1%;
+    bottom: 10px; */
+    min-height: 372px;
+    position: relative;
+    margin-top: -377px
+
+    /* width: calc(auto - 5px); */
+
+}
+#bottom-right {
+    right: 1%;
+    bottom: 10px;
+    height: 373px;
+}
+
+
+
+#head {
+    background-color: rgb(0, 0, 0);
+    color: #0f0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* width: ; */
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#head > h2 {
+    padding-left: 5%;
+}
+
+#center {
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    height: 776px;
+}
+
+#middle {
+    
+}
+
+
+
+#chats {
+    /* background-color: hotpink; */
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 700px;
+    overflow: scroll;
+    /* max-height: 400px;
+    min-height: 300px; */
+}
+
+#pers-chats {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 265px !important;
+    overflow: scroll;
+}
+
+#form {
+    text-align: center;
+}
+
+#form > input{
+    /* text-align: center; */
+    font-size: 18px;
+
+
+    /* transform: translateX(-50%); */
+    padding:10px;
+    border:none;
+    border-bottom: 1px solid #0f0;
+    border-radius: 9px;
+    background: rgb(24, 24, 24);
+    color: white;
+    outline: none;
+    width: 70%;
+}
+
+/* message */
+
+
+.real-msg {
+    font-size: 17px;
+    font-family: 'Trebuchet MS';
+    background-color: #0f0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    word-wrap: break-word;
+    display:block;
+    line-height:25px;
+    margin-bottom:15px
+}
+
+.msg {
+    line-height: 50px;
+    /* border: 1px solid white; */
+}
+
+.my {
+    text-align: right;
+    padding-right: 6%; 
+    margin-left:30%;
+
+}
+
+.img {
+    display: inline;
+    line-height: 47px;
+    /* border:1px solid white; */
+}
+
+.my .img {
+    float: right;
+}
+
+.other {
+    padding-left: 6%;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.other img {
+    position: relative;
+    top: -2px;
+}
+
+.img > img {
+    height: 25px;
+    width: 25px;    
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.name b, .date i {
+    font-size: 14px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
